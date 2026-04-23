@@ -7,5 +7,6 @@ public class AppointmentListDto
     public string status { get; set; } = string.Empty;
     public string reason { get; set; } = string.Empty;
     public string patientFullName { get; set; } = string.Empty;
+    public string patientLastName { get; set; } = string.Empty;
     public string patientEmail { get; set; } = string.Empty;
 }

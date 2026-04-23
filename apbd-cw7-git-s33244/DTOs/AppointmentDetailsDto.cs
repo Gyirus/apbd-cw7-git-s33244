@@ -12,11 +12,14 @@ public class AppointmentDetailsDto
     
     
     public string patientFullName { get; set; } = string.Empty;
+    public string patientLastName { get; set; } = string.Empty;
     public string patientEmail { get; set; } = string.Empty;
     public string patientPhoneNumber { get; set; } = string.Empty;
     
     
     public string doctorFullName { get; set; } = string.Empty;
-    public string DoctorLicenseNumber { get; set; } = string.Empty;
-    public string SpecializationName { get; set; } = string.Empty;
+    
+    public string doctorLastName { get; set; } = string.Empty;
+    public string doctorLicenseNumber { get; set; } = string.Empty;
+    public string specializationName { get; set; } = string.Empty;
 }

@@ -4,6 +4,6 @@ public class CreateAppointmentRequestDto
 {
     public int idPatient { get; set; }
     public int idDoctor { get; set; }
-    public DateTime фppointmentDate { get; set; }
-    public string кeason { get; set; } = string.Empty;
+    public DateTime appointmentDate { get; set; }
+    public string reason { get; set; } = string.Empty;
 }
